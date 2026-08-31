@@ -36,14 +36,14 @@ values, fixing data types, removing duplicates, and dealing with outliers.
 ## Files in This Repo
 - `AB_NYC_2019.csv` — original, untouched raw dataset
 - `cleaned_airbnb_nyc.csv` — cleaned output dataset
-- `airbnb_cleaning.ipynb` — notebook with all cleaning steps and code
+- `script.py` — notebook with all cleaning steps and code
 - `README.md` — this file
 
 ## Tools Used
 - Python
 - pandas
 - numpy
-- VS Code (Jupyter Notebook extension)
+- VS Code
 
 ## What I'd Do With More Time
 - Cross-check `neighbourhood` against `neighbourhood_group` for mismatches (e.g., a neighbourhood listed under the wrong borough)
@@ -51,5 +51,5 @@ values, fixing data types, removing duplicates, and dealing with outliers.
 - Geocode/validate `latitude`/`longitude` against NYC borough boundaries to catch mislabeled locations
 
 ## Author
-[Your Name] — [your GitHub username]
+[Taha Abdullah] — [TahaAdb1]
 Project 1 of a self-directed data analysis learning path (Month 1: Data Cleaning)
